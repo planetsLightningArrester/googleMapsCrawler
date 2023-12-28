@@ -1,15 +1,16 @@
 {
-  "name": "19-MapsRequest",
-  "version": "1.0.0",
+  "name": "google-maps-crawler",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^4.0.1"
+    "puppeteer": "^21.6.1"
   }
 }

@@ -5,7 +5,7 @@ let page;
 
 async function main() {
   // Open the browser
-  browser = await puppeteer.launch({ headless: true });
+  browser = await puppeteer.launch({ headless: "new" });
   page = await browser.newPage();
 
   // Get the distance
